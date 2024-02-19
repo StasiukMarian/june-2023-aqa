@@ -5,6 +5,7 @@ import org.apache.commons.io.FileUtils;
 import org.base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -12,6 +13,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
+import java.util.Set;
 
 import static com.codeborne.selenide.Selenide.*;
 
@@ -105,11 +107,6 @@ public class WorkWithElementsTest extends BaseTest {
 //        while ($$(By.xpath("//button[text()='Add to cart']")).size() > 0) {
 //            $(By.xpath("//button[text()='Add to cart']")).click();
 //        }
-
-        for (SelenideElement button : buttonsList) {
-            button.click();
-        }
-
         List<String> headersTextsList = $$(By.xpath("//div[@class='inventory_list']//div[@class='inventory_item_name ']")).texts();
 
         int sauceLabsFleeceJacket = headersTextsList.indexOf("Sauce Labs Fleece Jacket");
