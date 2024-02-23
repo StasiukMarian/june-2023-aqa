@@ -2,10 +2,9 @@ package lesson3;
 
 import com.codeborne.selenide.*;
 import org.apache.commons.io.FileUtils;
-import org.base.BaseTest;
+import base.config.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -13,7 +12,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
-import java.util.Set;
 
 import static com.codeborne.selenide.Selenide.*;
 

@@ -1,9 +1,6 @@
 package lesson1;
 
-import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
-import org.base.BaseTest;
-import org.openqa.selenium.By;
+import base.config.BaseTest;
 import org.testng.annotations.*;
 
 import static com.codeborne.selenide.Selenide.$;
