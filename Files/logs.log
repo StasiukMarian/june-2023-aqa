@@ -1,0 +1,21 @@
+20:27:24 | INFO | Utils:112                                | [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IntelliJIdea2023.2\temp-testng-customsuite.xml
+
+20:27:24 | INFO | WebDriverThreadLocalContainer:151        | No webdriver is bound to current thread: 1 - let's create a new webdriver
+20:27:24 | INFO | FileHelper:46                            | Creating folder: D:\IdeaProjects\june-2023-aqa\build\downloads\1708972044696_14880_1
+20:27:25 | INFO | SelenideNettyClientFactory:25            | Changed readTimeout from PT3M to PT1M30S
+20:27:26 | INFO | SelenideNettyClientFactory:25            | Changed readTimeout from PT3M to PT1M30S
+20:27:26 | INFO | WebDriverFactory:145                     | BrowserName=chrome Version=114.0.5735.199 Platform=windows
+20:27:26 | INFO | WebDriverFactory:75                      | Selenide v. 6.19.1
+20:27:26 | INFO | WebDriverFactory:139                     | Selenium WebDriver v. 4.13.0 build revision: ba948ece5b*
+20:27:26 | INFO | CreateDriverCommand:78                   | Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (3df7bb60495ef2b17592f074201d8bd1)
+20:27:26 | INFO | DisposablesRegistry:30                   | Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (3df7bb60495ef2b17592f074201d8bd1),proxy=null,downloadsFolder=D:\IdeaProjects\june-2023-aqa\build\downloads\1708972044696_14880_1] in 1 [size=1]
+20:27:26 | INFO | DisposablesRegistry:32                   | Add shutdown hook in 1 [size=1]
+20:27:26 | INFO | WebDriverThreadLocalContainer:194        | Browser will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on windows (3df7bb60495ef2b17592f074201d8bd1)
+20:27:27 | INFO | LoginPage:19                             | Type username 'element -> By.xpath: //input[@placeholder='Username']
+20:27:28 | INFO | LoginPage:19                             | Type password 'element -> By.xpath: //input[@placeholder='Password']
+20:27:28 | INFO | LoginPage:19                             | Click submit 'element -> By.xpath: //input[@value='Login']
+20:27:28 | INFO | CloseDriverCommand:27                    | Hold browser open: 1 -> ChromeDriver: chrome on windows (3df7bb60495ef2b17592f074201d8bd1)
+20:27:28 | INFO | DisposablesRegistry:40                   | Unregister WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (3df7bb60495ef2b17592f074201d8bd1),proxy=null,downloadsFolder=D:\IdeaProjects\june-2023-aqa\build\downloads\1708972044696_14880_1] in 1 [size=0]
+20:27:28 | INFO | DisposablesRegistry:66                   | Run cleanup: size=0
+20:27:28 | INFO | DisposablesRegistry:68                   | Finished cleanup

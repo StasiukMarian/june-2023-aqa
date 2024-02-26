@@ -33,6 +33,7 @@ build/
 /target/
 build/reports
 build/downloads
+allure-results/
 .allure/**
 ### VS Code ###
 .vscode/
