@@ -20,7 +20,7 @@ public class DetailsItemTest extends BaseTest {
 
         List<Item> itemListFromMainPage = Pages.mainPage().getItemList();
 
-        Pages.mainPage().getItemHeaders().get(7).click();
+        Pages.mainPage().getItemHeaders().get(5).click();
 
         Item detailedItem = Pages.detailsItemPage().getDetailedItem();
 
