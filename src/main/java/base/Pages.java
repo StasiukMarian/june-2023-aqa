@@ -1,15 +1,13 @@
 package base;
 
-import base.pages.BurgerMenuPage;
-import base.pages.LoginPage;
-import base.pages.MainPage;
-import base.pages.ShoppingCardPage;
+import base.pages.*;
 
 public class Pages {
     public static LoginPage loginPage;
     public static MainPage mainPage;
     public static ShoppingCardPage shoppingCardPage;
     public static BurgerMenuPage burgerMenuPage;
+    public static DetailsItemPage detailsItemPage;
 
     /*this method returns instance of LoginPage*/
     public static LoginPage loginPage() {
@@ -38,5 +36,12 @@ public class Pages {
             burgerMenuPage = new BurgerMenuPage();
         }
         return burgerMenuPage;
+    }
+
+    public static DetailsItemPage detailsItemPage() {
+        if (detailsItemPage == null) {
+            detailsItemPage = new DetailsItemPage();
+        }
+        return detailsItemPage;
     }
 }

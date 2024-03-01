@@ -2,12 +2,14 @@ package base.config;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.selenide.AllureSelenide;
 import org.testng.annotations.*;
 
 public class BaseTest {
 
     @BeforeClass
-    public void configuration(){
+    public void configuration() {
         Configuration.browser = "chrome"; // edge/firefox/ie
         Configuration.browserSize = "1280x920";
         Configuration.holdBrowserOpen = true;
@@ -16,9 +18,13 @@ public class BaseTest {
         Configuration.headless = false;
         Configuration.screenshots = true;
         Configuration.savePageSource = false;
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide()
+                .screenshots(true)
+                .savePageSource(false));
     }
+
     @BeforeMethod
-    public void setUp(){
+    public void setUp() {
         // https://www.stats.govt.nz/large-datasets/csv-files-for-download/ - URL TO DOWNLOAD FILE
         // https://ps.uci.edu/~franklin/doc/file_upload.html - URL TO UPLOAD FILE
         // https://checkcps.com/double-click/ - URL TO DOUBLE CLICK
@@ -26,14 +32,15 @@ public class BaseTest {
 
         Selenide.open("https://www.saucedemo.com/");
     }
-//    @AfterMethod
+
+    //    @AfterMethod
 //    public void cleanWebDriver(){
 //        Selenide.clearBrowserCookies();
 //        Selenide.refresh();
 //        Selenide.open("about:blank");
 //    }
     @AfterClass
-    public void tearDown(){
+    public void tearDown() {
         Selenide.closeWebDriver();
     }
 }
