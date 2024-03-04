@@ -1,18 +1,3 @@
-21:29:11 | INFO | Utils:112                                | [TestNG] Running:
+20:23:23 | INFO | Utils:112                                | [TestNG] Running:
   C:\Users\User\AppData\Local\JetBrains\IntelliJIdea2023.2\temp-testng-customsuite.xml
 
-21:29:11 | INFO | WebDriverThreadLocalContainer:151        | No webdriver is bound to current thread: 1 - let's create a new webdriver
-21:29:11 | INFO | FileHelper:46                            | Creating folder: D:\IdeaProjects\june-2023-aqa\build\downloads\1709321351894_20840_1
-21:29:12 | INFO | SelenideNettyClientFactory:25            | Changed readTimeout from PT3M to PT1M30S
-21:29:14 | INFO | SelenideNettyClientFactory:25            | Changed readTimeout from PT3M to PT1M30S
-21:29:14 | INFO | WebDriverFactory:145                     | BrowserName=chrome Version=114.0.5735.199 Platform=windows
-21:29:14 | INFO | WebDriverFactory:75                      | Selenide v. 6.19.1
-21:29:14 | INFO | WebDriverFactory:139                     | Selenium WebDriver v. 4.13.0 build revision: ba948ece5b*
-21:29:14 | INFO | CreateDriverCommand:78                   | Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (4d2b02ecd20f3220a1309537aa481f6d)
-21:29:14 | INFO | DisposablesRegistry:30                   | Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (4d2b02ecd20f3220a1309537aa481f6d),proxy=null,downloadsFolder=D:\IdeaProjects\june-2023-aqa\build\downloads\1709321351894_20840_1] in 1 [size=1]
-21:29:14 | INFO | DisposablesRegistry:32                   | Add shutdown hook in 1 [size=1]
-21:29:14 | INFO | WebDriverThreadLocalContainer:194        | Browser will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on windows (4d2b02ecd20f3220a1309537aa481f6d)
-21:29:15 | INFO | LoginPage:19                             | Type username 'element -> By.xpath: //input[@placeholder='Username']
-21:29:16 | INFO | DisposablesRegistry:66                   | Run cleanup: size=1
-21:29:16 | INFO | CloseDriverCommand:27                    | Hold browser open: 33 -> ChromeDriver: chrome on windows (4d2b02ecd20f3220a1309537aa481f6d)
-21:29:16 | INFO | DisposablesRegistry:68                   | Finished cleanup
