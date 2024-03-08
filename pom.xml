@@ -18,6 +18,10 @@
         <logback>1.2.3</logback>
         <allure.version>2.24.0</allure.version>
         <aspectj.version>1.9.6</aspectj.version>
+        <restAssured>5.3.0</restAssured>
+        <jsonSimple>1.1.1</jsonSimple>
+        <jackson>2.16.1</jackson>
+        <lombok>1.18.30</lombok>
     </properties>
 
     <dependencies>
@@ -68,15 +72,31 @@
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>5.3.0</version>
+            <version>${restAssured}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
-            <version>1.1.1</version>
+            <version>${jsonSimple}</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>5.3.0</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
