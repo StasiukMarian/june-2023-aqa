@@ -8,11 +8,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <java.version>17</java.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenide>7.2.3</selenide>
+        <selenide>7.3.2</selenide>
         <testng>7.8.0</testng>
         <org.slf4j>1.7.25</org.slf4j>
         <logback>1.2.3</logback>

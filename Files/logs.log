@@ -1,25 +1,52 @@
-12:40:59 | INFO | Utils:112                                | [TestNG] Running:
+20:22:33 | INFO | Utils:112                                | [TestNG] Running:
   C:\Users\User\AppData\Local\JetBrains\IntelliJIdea2023.2\temp-testng-customsuite.xml
 
-12:40:59 | INFO | WebDriverThreadLocalContainer:135        | No webdriver is bound to current thread: 1 - let's create a new webdriver
-12:40:59 | INFO | FileHelper:46                            | Creating folder: D:\IdeaProjects\june-2023-aqa\build\downloads\1717926059362_9964_1
-12:41:00 | INFO | WebDriverFactory:142                     | BrowserName=chrome Version=125.0.6422.142 Platform=windows
-12:41:00 | INFO | WebDriverFactory:75                      | Selenide v. 7.2.3
-12:41:00 | INFO | WebDriverFactory:136                     | Selenium WebDriver v. 4.19.1 build revision: abe0ee07dc
-12:41:00 | INFO | CreateDriverCommand:74                   | Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (f426705740b1f0a46ca96a4ba45b9878), downloadsFolder: D:\IdeaProjects\june-2023-aqa\build\downloads\1717926059362_9964_1
-12:41:00 | INFO | DisposablesRegistry:30                   | Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (f426705740b1f0a46ca96a4ba45b9878), proxy=null, downloadsFolder=D:\IdeaProjects\june-2023-aqa\build\downloads\1717926059362_9964_1] in 1 [size=1]
-12:41:00 | INFO | DisposablesRegistry:32                   | Add shutdown hook in 1 [size=1]
-12:41:00 | INFO | WebDriverThreadLocalContainer:178        | Browser will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on windows (f426705740b1f0a46ca96a4ba45b9878)
-12:41:02 | INFO | LoginPage:19                             | Type username 'element -> By.xpath: //input[@placeholder='Username']
-12:41:03 | INFO | LoginPage:19                             | Type password 'element -> By.xpath: //input[@placeholder='Password']
-12:41:03 | INFO | LoginPage:19                             | Click submit 'element -> By.xpath: //input[@value='Login']
-12:41:03 | INFO | MainPage:19                              | Get item list 'elements collection texts -> By.xpath: //div[@class='inventory_item_name ']
-12:41:03 | INFO | MainPage:19                              | Get item list 'elements collection texts -> By.xpath: //div[@class='inventory_item_desc']
-12:41:03 | INFO | MainPage:19                              | Get item list 'elements collection texts -> By.xpath: //div[@class='inventory_item_price']
-12:41:03 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[contains(@class,'inventory_details_name')]
-12:41:03 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: (//div[contains(@class,'inventory_details_desc')])[2]
-12:41:03 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[@class='inventory_details_price']
-12:41:03 | INFO | CloseDriverCommand:27                    | Hold browser open: 1 -> ChromeDriver: chrome on windows (f426705740b1f0a46ca96a4ba45b9878)
-12:41:03 | INFO | DisposablesRegistry:40                   | Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (f426705740b1f0a46ca96a4ba45b9878), proxy=null, downloadsFolder=D:\IdeaProjects\june-2023-aqa\build\downloads\1717926059362_9964_1] in 1 [size=0]
-12:41:03 | INFO | DisposablesRegistry:66                   | Run cleanup: size=0
-12:41:03 | INFO | DisposablesRegistry:68                   | Finished cleanup
+20:22:34 | INFO | WebDriverThreadLocalContainer:135        | No webdriver is bound to current thread: 1 - let's create a new webdriver
+20:22:34 | INFO | FileHelper:46                            | Creating folder: D:\IdeaProjects\june-2023-aqa\build\downloads\1717953754162_20468_1
+20:22:35 | INFO | WebDriverFactory:142                     | BrowserName=chrome Version=125.0.6422.142 Platform=windows
+20:22:35 | INFO | WebDriverFactory:75                      | Selenide v. 7.3.2
+20:22:35 | INFO | WebDriverFactory:136                     | Selenium WebDriver v. 4.21.0 build revision: 79ed462ef4
+20:22:35 | INFO | CreateDriverCommand:74                   | Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (3e66924630964b14344bc07bdee3a76c), downloadsFolder: D:\IdeaProjects\june-2023-aqa\build\downloads\1717953754162_20468_1
+20:22:35 | INFO | DisposablesRegistry:30                   | Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (3e66924630964b14344bc07bdee3a76c), proxy=null, downloadsFolder=D:\IdeaProjects\june-2023-aqa\build\downloads\1717953754162_20468_1] in 1 [size=1]
+20:22:35 | INFO | DisposablesRegistry:32                   | Add shutdown hook in 1 [size=1]
+20:22:35 | INFO | WebDriverThreadLocalContainer:178        | Browser will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on windows (3e66924630964b14344bc07bdee3a76c)
+20:22:37 | INFO | LoginPage:19                             | Type username 'element -> By.xpath: //input[@placeholder='Username']
+20:22:37 | INFO | LoginPage:19                             | Type password 'element -> By.xpath: //input[@placeholder='Password']
+20:22:37 | INFO | LoginPage:19                             | Click submit 'element -> By.xpath: //input[@value='Login']
+20:22:37 | INFO | MainPage:19                              | Get item list 'elements collection texts -> By.xpath: //div[@class='inventory_item_name ']
+20:22:37 | INFO | MainPage:19                              | Get item list 'elements collection texts -> By.xpath: //div[@class='inventory_item_desc']
+20:22:37 | INFO | MainPage:19                              | Get item list 'elements collection texts -> By.xpath: //div[@class='inventory_item_price']
+20:22:37 | INFO | MainPage:19                              | Click header by id 'element -> By.xpath: (//div[@class='inventory_item_name '])[1]
+20:22:37 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[contains(@class,'inventory_details_name')]
+20:22:37 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: (//div[contains(@class,'inventory_details_desc')])[2]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[@class='inventory_details_price']
+20:22:38 | INFO | DetailsItemPage:19                       | Click back to products 'element -> By.xpath: //button[text()='Back to products']
+20:22:38 | INFO | MainPage:19                              | Click header by id 'element -> By.xpath: (//div[@class='inventory_item_name '])[2]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[contains(@class,'inventory_details_name')]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: (//div[contains(@class,'inventory_details_desc')])[2]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[@class='inventory_details_price']
+20:22:38 | INFO | DetailsItemPage:19                       | Click back to products 'element -> By.xpath: //button[text()='Back to products']
+20:22:38 | INFO | MainPage:19                              | Click header by id 'element -> By.xpath: (//div[@class='inventory_item_name '])[3]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[contains(@class,'inventory_details_name')]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: (//div[contains(@class,'inventory_details_desc')])[2]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[@class='inventory_details_price']
+20:22:38 | INFO | DetailsItemPage:19                       | Click back to products 'element -> By.xpath: //button[text()='Back to products']
+20:22:38 | INFO | MainPage:19                              | Click header by id 'element -> By.xpath: (//div[@class='inventory_item_name '])[4]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[contains(@class,'inventory_details_name')]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: (//div[contains(@class,'inventory_details_desc')])[2]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[@class='inventory_details_price']
+20:22:38 | INFO | DetailsItemPage:19                       | Click back to products 'element -> By.xpath: //button[text()='Back to products']
+20:22:38 | INFO | MainPage:19                              | Click header by id 'element -> By.xpath: (//div[@class='inventory_item_name '])[5]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[contains(@class,'inventory_details_name')]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: (//div[contains(@class,'inventory_details_desc')])[2]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[@class='inventory_details_price']
+20:22:38 | INFO | DetailsItemPage:19                       | Click back to products 'element -> By.xpath: //button[text()='Back to products']
+20:22:38 | INFO | MainPage:19                              | Click header by id 'element -> By.xpath: (//div[@class='inventory_item_name '])[6]
+20:22:38 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[contains(@class,'inventory_details_name')]
+20:22:39 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: (//div[contains(@class,'inventory_details_desc')])[2]
+20:22:39 | INFO | DetailsItemPage:19                       | Get detailed item 'element text -> By.xpath: //div[@class='inventory_details_price']
+20:22:39 | INFO | DetailsItemPage:19                       | Click back to products 'element -> By.xpath: //button[text()='Back to products']
+20:22:39 | INFO | CloseDriverCommand:27                    | Hold browser open: 1 -> ChromeDriver: chrome on windows (3e66924630964b14344bc07bdee3a76c)
+20:22:39 | INFO | DisposablesRegistry:40                   | Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (3e66924630964b14344bc07bdee3a76c), proxy=null, downloadsFolder=D:\IdeaProjects\june-2023-aqa\build\downloads\1717953754162_20468_1] in 1 [size=0]
+20:22:39 | INFO | DisposablesRegistry:66                   | Run cleanup: size=0
+20:22:39 | INFO | DisposablesRegistry:68                   | Finished cleanup

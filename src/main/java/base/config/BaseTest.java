@@ -4,13 +4,14 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.*;
 
 public class BaseTest {
 
     @BeforeClass
     public void configuration() {
-        Configuration.browser = "chrome"; // edge/firefox/ie
+        Configuration.browser = "chrome";
         Configuration.browserSize = "1280x920";
         Configuration.holdBrowserOpen = true;
         Configuration.timeout = 10000;
@@ -18,6 +19,7 @@ public class BaseTest {
         Configuration.headless = false;
         Configuration.screenshots = true;
         Configuration.savePageSource = false;
+
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide()
                 .screenshots(true)
                 .savePageSource(false));
@@ -30,7 +32,7 @@ public class BaseTest {
         // https://checkcps.com/double-click/ - URL TO DOUBLE CLICK
         // https://faculty.washington.edu/chudler/java/boxes.html - URL WITH CHECKBOXES
 
-        Selenide.open("https://www.saucedemo.com/");
+        Selenide.open("https://www.saucedemo.com");
     }
 
     //    @AfterMethod

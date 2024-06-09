@@ -3,12 +3,10 @@ package gui.lesson7;
 import base.Pages;
 import base.config.BaseTest;
 import base.pages.Item;
-import com.codeborne.selenide.ElementsCollection;
-import com.codeborne.selenide.Selenide;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.List;
+
 
 public class VarArgsTest extends BaseTest {
 
@@ -21,6 +19,8 @@ public class VarArgsTest extends BaseTest {
         Pages.mainPage().waitUntilMainPage();
 
         List<Item> itemListFromMainPage = Pages.mainPage().getItemList();
+        System.out.println(itemListFromMainPage);
+
         for (int i = 1; i <= itemListFromMainPage.size(); i++) {
             Pages.mainPage().clickHeaderByID(i);
 
