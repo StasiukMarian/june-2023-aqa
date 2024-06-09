@@ -1,9 +1,6 @@
 package gui.lesson4;
 
-import com.codeborne.selenide.CollectionCondition;
-import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.ElementsCollection;
-import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.*;
 import base.config.BaseTest;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -37,7 +34,7 @@ public class ConditionTest extends BaseTest {
     //    @Test
     public void conditionTest() {
 
-        Condition clickable = Condition.and("should be clickable", Condition.visible, Condition.enabled);
+        WebElementCondition clickable = Condition.and("should be clickable", Condition.visible, Condition.enabled);
 
 //        $(By.xpath("//input[@placeholder='Username']")).shouldNotBe(Condition.visible).append("standard_user");
         $(By.xpath("//input[@placeholder='Username']")).shouldBe(Condition.visible).append("standard_user");

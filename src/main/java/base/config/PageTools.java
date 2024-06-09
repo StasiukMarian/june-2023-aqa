@@ -5,6 +5,7 @@ import base.logger.LocatorParser;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
+import com.codeborne.selenide.WebElementCondition;
 import org.openqa.selenium.By;
 
 import java.util.List;
@@ -30,7 +31,7 @@ public class PageTools extends CustomLogger {
         return LocatorParser.parseLocator(by, args);
     }
 
-    protected SelenideElement shouldBe(Condition condition, By by, Object... args) {
+    protected SelenideElement shouldBe(WebElementCondition condition, By by, Object... args) {
         return $(byLocator(by, args)).shouldBe(condition);
     }
 
