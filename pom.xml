@@ -12,7 +12,7 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenide>7.3.2</selenide>
-        <testng>7.8.0</testng>
+        <testng>7.10.2</testng>
         <org.slf4j>1.7.25</org.slf4j>
         <logback>1.2.3</logback>
         <allure.version>2.24.0</allure.version>
@@ -33,7 +33,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng}</version>
-            <scope>test</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -88,12 +88,6 @@
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>5.3.0</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.8.0</version>
             <scope>compile</scope>
         </dependency>
 
