@@ -7,6 +7,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.util.List;
 
+import static com.codeborne.selenide.Selectors.byXpath;
+import static com.codeborne.selenide.Selenide.$;
+
 
 public class VarArgsTest extends BaseTest {
 
@@ -17,7 +20,7 @@ public class VarArgsTest extends BaseTest {
         Pages.loginPage().clickSubmit();
 
         Pages.mainPage().waitUntilMainPage();
-
+        $(byXpath("asd")).click();
         List<Item> itemListFromMainPage = Pages.mainPage().getItemList();
         System.out.println(itemListFromMainPage);
 
